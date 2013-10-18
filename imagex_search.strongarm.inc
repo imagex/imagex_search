@@ -30,8 +30,6 @@ function imagex_search_strongarm() {
   $strongarm->name = 'search_api_facets_search_ids';
   $strongarm->value = array(
     'default_node_index' => array(
-      'search_api_views:search_page_test:page' => 'search_api_views:search_page_test:page',
-      'search_api_page:search-test' => 'search_api_page:search-test',
       'search_api_views:imagex_search_node:panel_pane_1' => 'search_api_views:imagex_search_node:panel_pane_1',
     ),
   );
