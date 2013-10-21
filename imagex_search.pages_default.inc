@@ -64,16 +64,17 @@ function imagex_search_default_page_manager_pages() {
     $pane->pid = 'new-1';
     $pane->panel = 'two_33_66_first';
     $pane->type = 'block';
-    $pane->subtype = 'views-a476092cad88dba2bc44a4a8eeba8a8b';
+    $pane->subtype = 'search_api_sorts-search-sorts';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
-      'inherit_path' => 1,
-      'override_title' => 0,
-      'override_title_text' => '',
+      'override_title' => 1,
+      'override_title_text' => 'Sort by',
     );
     $pane->cache = array();
-    $pane->style = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
     $pane->css = array();
     $pane->extras = array();
     $pane->position = 0;
@@ -84,25 +85,6 @@ function imagex_search_default_page_manager_pages() {
     $pane->pid = 'new-2';
     $pane->panel = 'two_33_66_first';
     $pane->type = 'block';
-    $pane->subtype = 'search_api_sorts-search-sorts';
-    $pane->shown = TRUE;
-    $pane->access = array();
-    $pane->configuration = array(
-      'override_title' => 1,
-      'override_title_text' => 'Sort by',
-    );
-    $pane->cache = array();
-    $pane->style = array();
-    $pane->css = array();
-    $pane->extras = array();
-    $pane->position = 1;
-    $pane->locks = array();
-    $display->content['new-2'] = $pane;
-    $display->panels['two_33_66_first'][1] = 'new-2';
-    $pane = new stdClass();
-    $pane->pid = 'new-3';
-    $pane->panel = 'two_33_66_first';
-    $pane->type = 'block';
     $pane->subtype = 'facetapi-zIH8EsYFkvWKeMtTZTGLEm1GrYlAarmk';
     $pane->shown = TRUE;
     $pane->access = array();
@@ -111,15 +93,17 @@ function imagex_search_default_page_manager_pages() {
       'override_title_text' => 'Filter by type',
     );
     $pane->cache = array();
-    $pane->style = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 2;
+    $pane->position = 1;
     $pane->locks = array();
-    $display->content['new-3'] = $pane;
-    $display->panels['two_33_66_first'][2] = 'new-3';
+    $display->content['new-2'] = $pane;
+    $display->panels['two_33_66_first'][1] = 'new-2';
     $pane = new stdClass();
-    $pane->pid = 'new-4';
+    $pane->pid = 'new-3';
     $pane->panel = 'two_33_66_second';
     $pane->type = 'views_panes';
     $pane->subtype = 'imagex_search_node-panel_pane_1';
@@ -145,10 +129,10 @@ function imagex_search_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $display->content['new-4'] = $pane;
-    $display->panels['two_33_66_second'][0] = 'new-4';
+    $display->content['new-3'] = $pane;
+    $display->panels['two_33_66_second'][0] = 'new-3';
   $display->hide_title = PANELS_TITLE_FIXED;
-  $display->title_pane = 'new-4';
+  $display->title_pane = 'new-3';
   $handler->conf['display'] = $display;
   $page->default_handlers[$handler->name] = $handler;
   $pages['search_page'] = $page;
