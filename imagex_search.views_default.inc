@@ -92,10 +92,6 @@ function imagex_search_views_default_views() {
   $handler->display->display_options['fields']['type']['label'] = 'Type';
   $handler->display->display_options['fields']['type']['link_to_entity'] = 0;
   $handler->display->display_options['fields']['type']['format_name'] = 1;
-  /* Sort criterion: Search: Relevance */
-  $handler->display->display_options['sorts']['search_api_relevance']['id'] = 'search_api_relevance';
-  $handler->display->display_options['sorts']['search_api_relevance']['table'] = 'search_api_index_default_node_index';
-  $handler->display->display_options['sorts']['search_api_relevance']['field'] = 'search_api_relevance';
   /* Filter criterion: Search: Fulltext search */
   $handler->display->display_options['filters']['search_api_views_fulltext']['id'] = 'search_api_views_fulltext';
   $handler->display->display_options['filters']['search_api_views_fulltext']['table'] = 'search_api_index_default_node_index';

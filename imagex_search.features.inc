@@ -247,7 +247,7 @@ function imagex_search_default_search_api_sort() {
     "identifier" : "default_node_index__search_api_relevance",
     "default_sort" : "1",
     "default_sort_no_terms" : "0",
-    "default_order" : "desc",
+    "default_order" : "asc",
     "options" : { "field_name" : "search_api_relevance" },
     "rdf_mapping" : []
   }');
@@ -260,7 +260,7 @@ function imagex_search_default_search_api_sort() {
     "identifier" : "default_node_index__title",
     "default_sort" : "0",
     "default_sort_no_terms" : "0",
-    "default_order" : "desc",
+    "default_order" : "asc",
     "options" : { "field_name" : "Title" },
     "rdf_mapping" : []
   }');
