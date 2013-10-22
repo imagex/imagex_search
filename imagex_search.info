@@ -36,7 +36,6 @@ features[search_api_server][] = database_search_server
 features[search_api_sort][] = default_node_index__created
 features[search_api_sort][] = default_node_index__search_api_relevance
 features[search_api_sort][] = default_node_index__title
-features[variable][] = entity_view_modes
 features[variable][] = search_api_facets_search_ids
 features[views_view][] = imagex_search_node
 features_exclude[dependencies][ctools] = ctools

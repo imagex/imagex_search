@@ -115,7 +115,8 @@ function imagex_search_default_page_manager_pages() {
       'items_per_page' => '20',
       'path' => '',
       'fields_override' => array(
-        'rendered_entity' => 1,
+        'title' => 1,
+        'body' => 1,
         'type' => 1,
       ),
       'override_title' => 0,
