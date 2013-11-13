@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the ImageX Search feature.
+ */
+
+include_once 'imagex_search.features.inc';
