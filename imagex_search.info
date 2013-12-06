@@ -6,6 +6,7 @@ version = 7.x-1.0-dev
 project = imagex_search
 dependencies[] = entity_view_mode
 dependencies[] = image
+dependencies[] = imagex_search_db
 dependencies[] = page_manager
 dependencies[] = search_api
 dependencies[] = search_api_facetapi
