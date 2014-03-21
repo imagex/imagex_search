@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the Search Permissions feature.
- */
-
-include_once 'imagex_search_permissions.features.inc';
